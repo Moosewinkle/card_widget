@@ -1,0 +1,80 @@
+<section class="ai-section">
+  <div class="ai-section__inner">
+    <h2 class="ai-section__title">AI and Generative AI</h2>
+
+    <div class="ai-grid">
+      <!-- (Optional) Card 1 – RAG hero example -->
+      <article class="ai-card js-animate-card">
+        <a href="https://www.bcg.com/capabilities/artificial-intelligence/retrieval-augmented-generation" class="ai-card__link" target="_blank" rel="noopener noreferrer">
+          <div class="ai-card__image-wrap">
+            <img
+              src="https://example.com/path-to-your-rag-image.jpg"
+              alt="What is Retrieval-Augmented Generation?"
+              class="ai-card__image"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="ai-card__content">
+            <div class="ai-card__meta">
+              <span class="ai-card__category">Artificial Intelligence</span>
+              <span class="ai-card__dot"></span>
+              <span class="ai-card__type">Article</span>
+              <span class="ai-card__dot"></span>
+              <span class="ai-card__date">May 2025</span>
+            </div>
+
+            <h3 class="ai-card__title">
+              What Is Retrieval-Augmented Generation?
+            </h3>
+
+            <p class="ai-card__excerpt">
+              Learn how RAG combines large language models with your own data sources to deliver more accurate, context-aware answers.
+            </p>
+
+            <span class="ai-card__cta">Learn more →</span>
+          </div>
+        </a>
+      </article>
+
+      <!-- Card 2 – the one you asked for -->
+      <article class="ai-card js-animate-card">
+        <a href="https://www.bcg.com/capabilities/cost-transformation/ai-amplifies-benefits-cost-transformation"
+           class="ai-card__link"
+           target="_blank"
+           rel="noopener noreferrer">
+          <div class="ai-card__image-wrap">
+            <img
+              src="https://example.com/path-to-your-cost-transformation-image.jpg"
+              alt="AI Amplifies the Benefits of a Cost Transformation"
+              class="ai-card__image"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="ai-card__content">
+            <div class="ai-card__meta">
+              <span class="ai-card__category">Cost Management</span>
+              <span class="ai-card__dot"></span>
+              <span class="ai-card__type">Article</span>
+              <span class="ai-card__dot"></span>
+              <span class="ai-card__date">May 23, 2025</span>
+            </div>
+
+            <h3 class="ai-card__title">
+              AI Amplifies the Benefits of a Cost Transformation
+            </h3>
+
+            <p class="ai-card__excerpt">
+              AI can be a force multiplier for traditional cost measures. To
+              capture this potential, companies need to take the right approach
+              in implementing the technology.
+            </p>
+
+            <span class="ai-card__cta">Learn more →</span>
+          </div>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
