@@ -1,8 +1,22 @@
-/* Base section layout */
+/* Base page styles (optional) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+/* Section layout */
 .ai-section {
   padding: 4rem 1.5rem;
   background: #f7f7f7;
-  color: #111827;
 }
 
 .ai-section__inner {
@@ -94,7 +108,7 @@
 
 .ai-card__category {
   font-weight: 600;
-  color: #047857; /* green-ish accent */
+  color: #047857; /* accent */
 }
 
 .ai-card__dot {
