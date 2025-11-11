@@ -161,7 +161,6 @@ body {
 /* Hover effects */
 .ai-card:hover {
   box-shadow: 0 18px 35px rgba(15, 23, 42, 0.16);
-  transform: translateY(-2px);
 }
 
 .ai-card:hover .ai-card__image {
@@ -170,4 +169,8 @@ body {
 
 .ai-card:hover .ai-card__cta {
   text-decoration: underline;
+}
+
+.ai-card:hover .ai-card__content {
+  transform: translateY(0);
 }
